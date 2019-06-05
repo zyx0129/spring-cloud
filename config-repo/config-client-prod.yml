@@ -3,35 +3,16 @@ mysqlPath:
   fengze: 47.111.165.32:3305
   oupai: 47.111.165.32:3309
 hikari: 
-  shufujia: 
-    driver-class-name: com.mysql.jdbc.Driver
-    jdbc-url: jdbc:mysql://47.111.165.32:3306/softhome?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
-    username: root
-    password: Leijun001
-    maximum-pool-size: 20
-    pool-name: xy-master
-    connection-timeout: 30000
-    idle-timeout: 600000
-    max-lifetime: 1765000
-  fengze: 
-    driver-class-name: com.mysql.jdbc.Driver
-    jdbc-url: jdbc:mysql://172.19.5.172:3306/cloud_xy_bpmxbuc?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
-    username: root
-    password: asd123456
-    maximum-pool-size: 20
-    pool-name: xy-master
-    connection-timeout: 30000
-    idle-timeout: 600000
-    max-lifetime: 1765000   
-  oupai:
-    driver-class-name: com.mysql.jdbc.Driver
-    jdbc-url: jdbc:mysql://172.19.5.172:3306/cloud_xy_bpmxbuc?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
-    username: root
-    password: asd123456
-    maximum-pool-size: 20
-    pool-name: xy-master
-    connection-timeout: 30000
-    idle-timeout: 600000
-    max-lifetime: 1765000
-    
+  default-datasource: shufujia
+  datasource-map: 
+    shufujia: 
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://47.111.165.32:3306/softhome?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
+      username: root
+      password: Leijun001
+      maximum-pool-size: 20
+      pool-name: xy-master
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1765000
   
