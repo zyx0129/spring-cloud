@@ -3,7 +3,6 @@ mysqlPath:
   fengze: 47.111.165.32:3305
   oupai: 47.111.165.32:3309
 hikari:
-  default-datasource: shufujia
   datasource-map:
     shufujia:
       driver-class-name: com.mysql.jdbc.Driver
