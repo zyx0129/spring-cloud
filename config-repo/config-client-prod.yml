@@ -2,16 +2,4 @@ mysqlPath:
   shufujia: 47.111.165.32:3306
   fengze: 47.111.165.32:3305
   oupai: 47.111.165.32:3309
-hikari:
-  default-datasource: shufujia
-  datasource-map:
-    shufujia:
-      driver-class-name: com.mysql.jdbc.Driver
-      jdbc-url: jdbc:mysql://47.111.165.32:3306/softhome?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
-      username: root
-      password: Leijun001
-      maximum-pool-size: 20
-      pool-name: shufujia
-      connection-timeout: 30000
-      idle-timeout: 600000
-      max-lifetime: 1765000
+
