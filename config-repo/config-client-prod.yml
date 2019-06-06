@@ -5,7 +5,4 @@ mysqlPath:
 spring:
   datasource:
     url: jdbc:mysql://47.111.165.32:3306/softhome?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
-    username: root
-    passward: Leijun001
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    database: mysql
+   
