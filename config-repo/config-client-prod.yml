@@ -10,7 +10,7 @@ hikari:
       username: root
       password: Leijun001
       maximum-pool-size: 20
-      pool-name: xy-master
+      pool-name: shufujia
       connection-timeout: 30000
       idle-timeout: 600000
       max-lifetime: 1765000
