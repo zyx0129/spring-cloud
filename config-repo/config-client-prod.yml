@@ -10,8 +10,3 @@ hikari:
       jdbc-url: jdbc:mysql://47.111.165.32:3306/softhome-rewrite?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
       username: root
       password: Leijun001
-     fengze:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://47.111.165.32:3306/fengze-rewrite?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
-      username: root
-      password: Leijun001
